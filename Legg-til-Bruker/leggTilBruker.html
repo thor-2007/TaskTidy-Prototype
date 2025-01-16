@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legg Til Brukere</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="leggTilBruker.css">
+</head>
+<body>
+    <!-- Header: -->
+    <div class="container-fluid">
+        <div class="mt-4 p-5 bg-light rounded text-center">
+            <h1 id="tittelen">LEGG TIL BRUKERE:</h1>
+            <p>Her kan du legge til maks 3 brukere</p>
+        </div>
+    </div>
+    <div class="d-flex justify-content-center align-items-center" style="min-height: 50vh;">
+        <div class="col-md-6 col-lg-4">
+            <div class="logIn">
+                <div class="form-group mb-4" id="telefonnummer-button">
+                    <input class="form-control text-center bg-light" id="brukernavn" name="brukernavn" placeholder="Telefonnummer:" type="text" required>
+                </div>
+                <div class="form-group mb-4" id="bekreftelseskode-button">
+                    <input class="form-control text-center bg-light" id="Passord" name="passor" placeholder="Bekreftelseskode:" type="email" required>
+                </div>
+                <div class="form-group text-center">
+                    <button class="btn btn-light" type="submit"><a href="/Frontend Tasktidy/Legg-til-Bruker/leggTilBrukerNeste.html">Neste</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="leggTilBruker.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>

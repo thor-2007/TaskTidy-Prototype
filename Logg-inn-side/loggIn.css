@@ -1,0 +1,17 @@
+#velkommen{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    border: 1px solid rgb(136, 136, 136);
+    box-shadow: 0.1px 0px 2px;
+}
+#brukernavn-button, #passord-button{
+    border: 1px solid rgb(136, 136, 136);
+    box-shadow: 0.1px 0px 2px;
+    border-radius: 6px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
