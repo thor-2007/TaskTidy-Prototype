@@ -1,0 +1,65 @@
+#dineBrukere{
+    font-size: 45px;
+    margin-left: -30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#dineBrukere2{
+    margin-left: -100px;
+}
+.btn{
+    border: 1px solid rgb(136, 136, 136);
+    box-shadow: 0.1px 0px 2px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+#brukernavn-button, #passord-button{
+    border: 1px solid rgb(136, 136, 136);
+    box-shadow: 0.1px 0px 2px;
+    border-radius: 6px;
+}
+.form-group{
+    margin-left: 50px;
+}
+.names{
+    margin-top: 0px;
+}
+.bi{
+    position: absolute;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 7px;
+    color: black;
+}
+#leggTilBruker{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 22.5px;
+}
+#plussLogo{
+    margin-top: -40px;
+    margin-left: -50px;
+    font-size: 30px;
+}
+#oppgaveUtfort{
+    font-size: 22.5px;
+    margin-top: -20px;
+}
+img{
+    width: 100px;
+}
+
+
+
+.floating-img {
+    float: right;
+    margin: -20px; /* Adds space around the image */
+    max-width: 20%; /* Adjust size as needed */
+    height: auto; /* Maintains aspect ratio */
+    border: 2px solid #ccc; /* Optional: Adds a border for better visibility */
+    border-radius: 10px; /* Optional: Adds rounded corners */
+}
+
+body {
+    min-width: 320px; /* Minimum width for most phones (e.g., iPhone SE) */
+}
