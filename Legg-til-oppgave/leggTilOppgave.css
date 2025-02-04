@@ -1,0 +1,42 @@
+#tittelen{
+    font-size: 45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.btn{
+    font-family: 'Franklin Gothic Light';
+    border: 1px solid rgb(136, 136, 136);
+    box-shadow: 0.1px 0px 2px;
+    padding: 5px 20px 9px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+#navnPaaOppgave-button, #beskrivelse-button, #poengsum-button{
+    border: 1px solid rgb(136, 136, 136);
+    box-shadow: 0.1px 0px 2px;
+    border-radius: 6px;
+}
+
+.form-control{
+    padding-bottom: 35px;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+
+
+.form-group{
+    margin-left: 50px;
+}
+
+.bi{
+    position: absolute;
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 7px;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
