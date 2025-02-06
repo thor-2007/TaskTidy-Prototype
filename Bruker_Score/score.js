@@ -1,9 +1,19 @@
+function visPremieSkjema() {   //Hviser selve boksen:
+    let premieSkjema = document.getElementById('premieSkjema');
+    premieSkjema.classList.remove('d-none');
+}
+
+function skjulPremieSkjema() { //skjuler selve boksen:
+    let premieSkjema = document.getElementById('premieSkjema');
+    premieSkjema.classList.add('d-none');
+}
+//Lager en premie:
 function leggTilPremie() {
-    let navnInput = document.getElementById('premieNavn').value;
+    let navnInput = document.getElementById('premieNavn').value;  //Henter elementer:
     let poengInput = document.getElementById('premiePoeng').value;
 
     if (navnInput && poengInput) {
-        let premieListe = document.getElementById('premieListe');
+        let premieListe = document.getElementById('premieListe');  
         let nyPremie = document.createElement('li');
         nyPremie.className = 'list-group-item d-flex justify-content-between align-items-center';
         nyPremie.innerHTML = `${navnInput} - ${poengInput} poeng 
@@ -18,7 +28,7 @@ function leggTilPremie() {
     }
 }
 
-function slettPremie(button) {
+function slettPremie(button) {  //Sletter premiene som er lagt til.
     let li = button.parentElement;
     li.remove();
 }

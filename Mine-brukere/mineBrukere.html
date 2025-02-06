@@ -31,6 +31,7 @@
                 </div>
             </div>
         </div>
+        <!-- Legg til Bruker: -->
         <div class="mt-4 p-5 rounded text-center">
             <h1 id="leggTilBruker">
                 LEGG TIL BRUKER 
@@ -39,8 +40,30 @@
                 </a> 
             </h1> 
         </div>
+        <!-- Legg til Premie: -->
+        <div class="mt-4 p-5 bg-light rounded text-center">
+            <h1 id="leggTilPremie">LEGG TIL PREMIE</h1>
+            <div class="d-flex justify-content-center align-items-center">
+                <div class="col-md-6 col-lg-4">
+                    <div class="logIn">
+                        <div class="form-group mb-4">
+                            <input class="form-control text-center bg-light" id="premieNavn" placeholder="Navn på premie" type="text" required>
+                        </div>
+                        <div class="form-group mb-4">
+                            <input class="form-control text-center bg-light" id="premiePoeng" placeholder="Poengsum" type="number" required>
+                        </div>
+                        <div class="form-group text-center">
+                            <button class="btn btn-light" type="button" onclick="leggTilPremie()">Legg Til</button>
+                        </div>
+                        <div class="mt-4">
+                            <ul id="premieListe" class="list-group"></ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+    <script src="mineBrukere.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-<script src="mineBrukere.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </html>

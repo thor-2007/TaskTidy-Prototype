@@ -26,10 +26,27 @@
                     <p>Legg til premie</p>
                     <div class="mt-4 p-5 rounded text-center">
                         <h1 id="leggTilBruker">
-                            <a href="/Legg-til-premie/leggTilPremie.html">
-                                <i class="bi bi-plus-circle" id="plussLogo"></i>
-                            </a> 
+                            <i class="bi bi-plus-circle" id="plussLogo" onclick="visPremieSkjema()"></i>
                         </h1> 
+                    </div>
+                    <div id="premieSkjema" class="popup-container d-none">
+                        <div class="popup-content">
+                            <div class="logIn">
+                                <div class="form-group mb-4">
+                                    <input class="form-control text-center bg-light" id="premieNavn" placeholder="Navn på premie" type="text" required>
+                                </div>
+                                <div class="form-group mb-4">
+                                    <input class="form-control text-center bg-light" id="premiePoeng" placeholder="Poengsum" type="number" required>
+                                </div>
+                                <div class="form-group text-center">
+                                    <button class="btn btn-light" type="button" onclick="leggTilPremie()">Legg Til</button>
+                                </div>
+                                <div class="mt-4">
+                                    <ul id="premieListe" class="list-group"></ul>
+                                </div>
+                            </div>
+                            <button class="btn-close" onclick="skjulPremieSkjema()">&times;</button>
+                        </div>
                     </div>
                 </div>
                 <div class="form-group text-center">
@@ -50,9 +67,10 @@
         <h2 id="oppgaveUtfort">OPPGAVER UTFØRT</h2> 
     </div>
     <div class="form-group text-center">
-        <button class="btn btn-light" type="submit"><a href="/Mine-brukere/mineBrukere.html">Se oppgave</a></button>
+        <button class="btn btn-light" type="submit" id="seOppgave"><a href="/Mine-brukere/mineBrukere.html">Se oppgave</a></button>
     </div>
+    <script src="mineBrukere.js"></script>
+    <script src="score.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-<script src="mineBrukere.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </html>

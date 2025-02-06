@@ -22,7 +22,7 @@ a{
 .form-group{
     margin-left: 50px;
 }
-.names{
+.names{ /* Under tittelene (premier osv):*/
     margin-top: 0px;
 }
 .bi{
@@ -32,14 +32,19 @@ a{
     margin-top: 7px;
     color: black;
 }
-#leggTilBruker{
+#leggTilBruker{ /* Pluss logoen er her:*/
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 22.5px;
+    position: absolute;
 }
 #plussLogo{
     margin-top: -40px;
     margin-left: -50px;
     font-size: 30px;
+    color: grey;
+}
+#plussLogo:hover{ /* Her kan jeg redigere farge til pluss knappen*/
+    color: black;
 }
 #oppgaveUtfort{
     font-size: 22.5px;
@@ -53,13 +58,73 @@ img{
 
 .floating-img {
     float: right;
-    margin: -20px; /* Adds space around the image */
-    max-width: 20%; /* Adjust size as needed */
-    height: auto; /* Maintains aspect ratio */
-    border: 2px solid #ccc; /* Optional: Adds a border for better visibility */
-    border-radius: 10px; /* Optional: Adds rounded corners */
+    margin: -20px; 
+    max-width: 20%; 
+    height: auto; 
+    border: 2px solid #ccc; 
+    border-radius: 10px; 
 }
 
 body {
-    min-width: 320px; /* Minimum width for most phones (e.g., iPhone SE) */
+    min-width: 320px; 
+}
+
+
+#seOppgave{
+    margin-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+.popup-container {
+    position: relative;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 90%;
+    margin: 20px auto;
+    max-width: 80%;
+    margin-top: -50px;
+}
+
+.popup-content {
+    position: relative;
+}
+
+.btn-close {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Responsiv design */
+@media (max-width: 576px) {
+    .popup-container {
+        width: 90%;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    .popup-container {
+        width: 75%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    .popup-container {
+        width: 50%;
+    }
 }
