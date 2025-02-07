@@ -120,12 +120,12 @@ body {
 
 @media (min-width: 577px) and (max-width: 768px) {
     .popup-container {
-        width: 75%;
+        width: 100%;
     }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
     .popup-container {
-        width: 50%;
+        width: 100%;
     }
 }
